@@ -1,6 +1,3 @@
-Here's a detailed README file draft for your project:
-
----
 
 # **Emplifi Social Media Metrics Extraction**
 
