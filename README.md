@@ -33,31 +33,16 @@ The purpose of this project is to showcase a practical implementation of a data 
 
 ### **Prerequisites**
 1. Install Python 3.8+.
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/<your_org>/<your_repo>.git
-   ```
-3. Install dependencies:
+
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Create a `.env` file in the root directory with the following variables:
+3. Create a `.env` file in the root directory with the following variables:
    ```env
    emplify_token=<Your Emplifi API Token>
    emplify_secret=<Your Emplifi API Secret>
    SSL_cert_loc=<Path to your SSL certificate>
-   ```
-
----
-
-### **How to Run**
-1. Open the terminal and navigate to the project folder:
-   ```bash
-   cd <project_folder>
-   ```
-2. Run the Python script:
-   ```bash
-   python main.py
    ```
 
 ---
@@ -94,11 +79,10 @@ The purpose of this project is to showcase a practical implementation of a data 
 2. **Database Integration**:
    - Store the transformed data in a relational database (e.g., Azure SQL, PostgreSQL) for further analysis.
 3. **Data Visualization**:
-   - Develop interactive dashboards in **Power BI** or **Tableau** to visualize the fetched metrics.
+   - Develop interactive dashboards in **Power BI** to visualize the fetched metrics.
 4. **Error Handling and Logging**:
    - Add robust error handling and logging mechanisms using **logging** or **Azure Monitor**.
-5. **Containerization**:
-   - Package the project as a **Docker container** for seamless deployment across environments.
+
 
 ---
 
@@ -115,27 +99,10 @@ The purpose of this project is to showcase a practical implementation of a data 
 | 2024-07-03 | #Adventure      | insights_impressions | 5000      |
 | 2024-07-03 | #Motorcycles    | number_of_comments   | 50        |
 
----
-
-## **How to Contribute**
-Contributions are welcome! If you have suggestions for new features, optimizations, or bug fixes:
-1. Fork the repository.
-2. Create a new branch for your feature/bugfix:
-   ```bash
-   git checkout -b feature_name
-   ```
-3. Submit a pull request.
-
----
-
-## **License**
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
 ## **Contact**
-If you have any questions or feedback, feel free to reach out via GitHub or email me at [your_email@example.com].
+If you have any questions or feedback, feel free to reach out via GitHub or email me at [witold.piecz@gmail.com].
 
 ---
-
-Let me know if you'd like to tweak any sections or add more details!
